@@ -1,0 +1,6 @@
+{
+  "name": "Doce Graça - Confeitaria Artesanal",
+  "description": "Website institucional e catálogo digital interativo para a confeitaria artesanal Doce Graça, com foco em experiência do usuário premium, agendamentos e alta conversão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
