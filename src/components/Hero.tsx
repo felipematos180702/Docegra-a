@@ -165,17 +165,22 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20 pointer-events-none" />
 
               {/* Floating micro glassmorphic tag with premium ingredients info (High CRO conversion trigger) */}
-              <div className="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 backdrop-blur-md bg-[#140A04]/75 border border-brand-gold/30 rounded-lg sm:rounded-xl p-2.5 sm:p-4 flex items-center justify-between shadow-xl">
-                <div>
-                  <span className="bg-brand-gold/20 text-brand-gold text-[7px] sm:text-[8px] uppercase tracking-widest font-extrabold px-1.5 py-0.5 rounded-sm border border-brand-gold/20 mb-0.5 sm:mb-1 mr-1.5 inline-block">
+              <div className="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 backdrop-blur-md bg-[#140A04]/75 border border-brand-gold/30 rounded-lg sm:rounded-xl px-2.5 pt-1.5 pb-2.5 sm:p-4 flex flex-col shadow-xl">
+                <div className="self-start mb-1 sm:mb-1.5">
+                  <span className="bg-brand-gold/20 text-brand-gold text-[7px] sm:text-[8px] uppercase tracking-widest font-extrabold px-1.5 py-0.5 rounded-sm border border-brand-gold/20">
                     Destaque<span className="hidden sm:inline"> da Estação</span>
                   </span>
-                  <h4 className="font-serif font-black text-[#FAF6F0] text-[11px] xs:text-xs sm:text-base leading-tight">Trufa de Maracujá</h4>
-                  <p className="hidden sm:block text-[#EFE9DE]/80 text-[10px] sm:text-xs mt-0.5">Com recheio de mousse super cremoso, cítrico, de maracujá fresco.</p>
                 </div>
-                <div className="text-right shrink-0 ml-2">
-                  <span className="hidden sm:block text-[9px] text-brand-gold uppercase tracking-wider font-semibold">Valor Especial</span>
-                  <span className="font-sans font-extrabold text-[#FAF6F0] text-xs sm:text-base">R$ 4,00 <span className="text-[9px] sm:text-[10px] font-normal">/ un</span></span>
+                
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h4 className="font-serif font-black text-[#FAF6F0] text-[12px] xs:text-[13px] sm:text-base leading-tight">Trufa de Maracujá</h4>
+                    <p className="hidden sm:block text-[#EFE9DE]/80 text-[10px] sm:text-xs mt-0.5">Com recheio de mousse super cremoso, cítrico, de maracujá fresco.</p>
+                  </div>
+                  <div className="text-right shrink-0 ml-2">
+                    <span className="hidden sm:block text-[9px] text-brand-gold uppercase tracking-wider font-semibold">Valor Especial</span>
+                    <span className="font-sans font-extrabold text-[#FAF6F0] text-[12px] xs:text-[13px] sm:text-base">R$ 4,00 <span className="text-[9px] sm:text-[10px] font-normal">/ un</span></span>
+                  </div>
                 </div>
               </div>
             </div>
