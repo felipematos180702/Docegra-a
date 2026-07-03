@@ -93,10 +93,10 @@ export default function About() {
                     </div>
                     <div>
                       <h4 className="font-serif font-black text-brand-brown-deep text-sm">
-                        Chocolate Nobre Cicao
+                        Chocolate Nobre Sicao
                       </h4>
                       <p className="text-xs text-neutral-600 mt-1 leading-relaxed">
-                        Nossos cones e trufas são feitos com o nobre chocolate meio amargo Cicao e recheios cremosos com sabor e textura incomparáveis.
+                        Nossos cones e trufas são feitos com o nobre chocolate meio amargo Sicao e recheios cremosos com sabor e textura incomparáveis.
                       </p>
                     </div>
                   </div>

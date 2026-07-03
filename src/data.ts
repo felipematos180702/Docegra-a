@@ -138,7 +138,7 @@ export const TESTIMONIALS: Testimonial[] = [
 export const DIFFERENTIALS = [
   {
     title: 'Ingredientes Nobres',
-    description: 'Nós utilizamos uma das melhores marcas de chocolate meio amargo, a Cicao, combinada com frutas frescas selecionadas e recheios cremosos de altíssima qualidade.',
+    description: 'Nós utilizamos uma das melhores marcas de chocolate meio amargo, a Sicao, combinada com frutas frescas selecionadas e recheios cremosos de altíssima qualidade.',
     icon: 'Sparkles'
   },
   {
